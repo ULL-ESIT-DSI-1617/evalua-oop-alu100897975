@@ -21,7 +21,7 @@ class TextCell{
     this.text = text.split("\n");
   }
 
-  //Método que devuelve el ancho mínimo de la celda.1
+  //Método que devuelve el ancho mínimo de la celda.
   minWidth(){
     //El método reduce aplica una función a un acumulador y a cada uno de los
     //elementos del Array, para reducirlo a un único valor.

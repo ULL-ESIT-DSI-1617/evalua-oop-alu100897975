@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "ejemplos de objetos y herencia.",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --require should"
+    "test": "./node_modules/mocha/bin/mocha --require should oop/test/test_oop.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "",
   "dependencies": {
+    "gulp": "^3.9.1",
     "gulp-shell": "^0.6.3",
     "mocha": "^2.3.3",
     "should": "^7.1.1"
